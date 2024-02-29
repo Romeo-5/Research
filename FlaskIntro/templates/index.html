@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Meme Sentiment Classifier</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Meme Sentiment Classifier</h1>
+    <form method="POST">
+        <input type="text" name="user_input" placeholder="Enter your sentence...">
+        <button type="submit">Analyze Sentiment</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Sentence: {{ text }}</h3>
+        <h3>Classes: {{ classes }}</h3>
+        <h3>Probabilities: {{ prediction }}</h3>
+        <h3>Predicted Class: {{ predicted_class }}</h3>
+    {% endif %}
+{% endblock %}
+
+
