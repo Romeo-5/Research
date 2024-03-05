@@ -7,7 +7,7 @@ import requests
 import os
 
 # Settings
-PATH = '/Users/romeonickel/Desktop/Research/Python/SeleniumIntro/chromedriver'
+PATH = ''
 search_terms = [
     "reduce reuse recycle meme",
     "recycling meme",
