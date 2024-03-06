@@ -1,5 +1,7 @@
 # Research Projects
 
+Developing a meme sentiment analysis project under guidance of Professor Sharon Hsiao at SCU. 
+
 ## 1. Data Collection
 - Task automation using Selenium.
 - Performs a list of Google queries, and scrapes up to 50 images from each.
