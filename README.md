@@ -1,6 +1,6 @@
 # Research Projects
 
-Developing a meme sentiment analysis project under guidance of Professor Sharon Hsiao at SCU. 
+Developing a "serious game" that makes use of meme sentiment analysis under guidance of Professor Sharon Hsiao at SCU. 
 
 ## 1. Data Collection
 - Task automation using Selenium.
